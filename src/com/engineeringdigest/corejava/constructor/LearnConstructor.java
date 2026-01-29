@@ -11,6 +11,9 @@ public class LearnConstructor {
 
 
     public static void main(String[] args) {
+        // We can not create a object with class constructor have private.
+        // PrivateConstructor pp = new PrivateConstructor();
+
         LearnConstructor a = new LearnConstructor();
 
         a.add();
