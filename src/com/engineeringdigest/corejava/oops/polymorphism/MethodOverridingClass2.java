@@ -10,6 +10,7 @@ public class MethodOverridingClass2 extends  MethodOverridingClass1 {
 
     public static void main(String[] args) {
         MethodOverridingClass2 aa= new MethodOverridingClass2();
+//        MethodOverridingClass1 bb= new MethodOverridingClass2();  // reference is a parent class
         aa.mmm(5);
     }
 }
